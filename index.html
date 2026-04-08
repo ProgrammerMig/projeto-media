@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Média</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Projeto Cálculo Média de Notas</h1>
+
+    <form>
+        <h3>Insira as notas para realizar o cálculo!</h3>
+        <label for="nota1">Nota 1: </label>
+        <input type="number" name="nota1" id="nota1">
+        <label for="nota2">Nota 2: </label>
+        <input type="number" name="nota2" id="nota2">
+
+        <button type="button" id="calcular" onclick="calcularMedia()">Calcular Média</button>
+        
+        <div id="resultado"></div>
+        <img src="assets/nerd.gif">
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
